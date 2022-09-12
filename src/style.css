@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap");
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+#search-bar{
+    width: 400px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+
+}
+
+#search-me {
+    background-color: #4297A0;
+    width: 309px;
+    height: 50px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color:Ivory;
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;  
+    /* border-top: 2px solid #E57F84;
+    border-left: 2px solid #E57F84;
+    border-bottom: 2px solid #E57F84; */
+}
+
+#search-btn{
+    background: #F4EAE6;
+    height: 50px;
+    width: 108px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: #00a3cb;
+}
+
+
+.weather-title{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.weather{
+  margin-top: 23px;
+}
+
+.weather-desp > p{
+margin-bottom: 8px;
+}
+
+.weather-desp {
+  display: flex;
+  justify-content: center;
+  border-bottom: 4px solid #e1c7a6;
+  margin-bottom: 13px;
+}
+.wind-speed-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 23px 0;
+
+}
+
+.child-wind-speed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 120px;
+}
+
+.child-wind-speed-container > img {
+  width: 40px;
+  height: 40px;
+}
+
+.child-wind-speed-container > p{
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.wind-speed-container > p {
+  font-size: 14px;
+  font-family: monospace;
+  color:rgba(0, 0, 0, 0.5);
+}
+
+
+#wind-speed-container > P {
+  font-size: 12px;
+}
+
+#visi {
+  margin-right: 70px;
+}
+#speed{
+  margin-right: 70px;
+}
+#speed > img {
+  background: #00d6ef;
+  border-radius: 25px;
+}
+/* Weather card */
+  :root {
+    font-size: 5vmin;
+  }
+  
+  body {
+    display: grid;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Sacramento", cursive;
+    color: #fff;
+    background: #333;
+    background-image: radial-gradient(ellipse at bottom left, #00a3cb 40%, rgba(0, 163, 203, 0) 40%), radial-gradient(ellipse at top right, #00a3cb 30%, rgba(0, 163, 203, 0) 30%), linear-gradient(to right, #625793 0%, #625793 33%, #d55d64 33%, #d55d64 66%, #e49129 66%);
+    background-size: 50% 100%;
+  }
+  body .message {
+    position: absolute;
+    right: 0.5vw;
+    top: 1vw;
+    max-width: 60vw;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  body .message a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+  }
+  body .message a:hover {
+    border-width: 3px;
+  }
+  body .card {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    padding: 2px;
+    border-radius: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    transform: perspective(500px);
+    transform-style: preserve-3d;
+  }
+  body .card .welcome {
+    font-family: "Sacramento", cursive;
+    transform: translateZ(20px);
+  }
+  body .card .year {
+    font-family: "Great Vibes", cursive;
+    font-size: 2.5em;
+  }
+  body .card .year span {
+    display: block;
+    transform: translateZ(40px);
+  }
+  body .card .year span:nth-child(2) {
+    padding-left: 1em;
+    transform: translateZ(60px);
+  }
+  body .card .year span:nth-child(3) {
+    padding-left: 2em;
+    transform: translateZ(80px);
+  }
+
+
