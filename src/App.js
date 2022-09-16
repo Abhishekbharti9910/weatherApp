@@ -4,6 +4,7 @@ import apiGiveMeData from './api methods';
 import windSpdPng from './img/windSpeed.png';
 import temp from './img/temp2.png';
 import vis from './img/vis.svg';
+// image import end
 
 import {
   screenPaint, getMain, getDesp, getWindSpeed, addCityName,
